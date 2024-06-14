@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(1600, 1600);
     background("pink");
   }
   
@@ -11,7 +11,7 @@ function setup() {
    // console.log(mouseIsPressed);
     
     if (mouseIsPressed){
-      rect(mouseX,mouseY,20,20);
+      rect(mouseX,mouseY,10,10);
   }
     }
     
